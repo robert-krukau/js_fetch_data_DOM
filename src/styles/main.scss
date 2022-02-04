@@ -5,7 +5,8 @@ body {
 
   display: flex;
   align-items: center;
-  justify-content: center;
+  justify-content: flex-start;
+  gap: 20px;
 
   min-height: 100vh;
 }
@@ -21,4 +22,25 @@ body {
   display: flex;
   align-items: center;
   justify-content: center;
+}
+
+.list {
+  background-color: ghostwhite;
+  border: 1px solid gainsboro;
+  border-radius: 10px;
+  width: 500px;
+
+  &__item {
+    color: rgb(63, 63, 63);
+
+    &--description {
+      display: none;
+    }
+  }
+
+  &__item:hover {
+    cursor: pointer;
+    color: black;
+    text-decoration: underline;
+  }
 }
