@@ -1,0 +1,2 @@
+body{background:#eee;font-family:Roboto,sans-serif;margin:0;justify-content:flex-start;gap:20px;min-height:100vh}.logo,body{display:flex;align-items:center}.logo{text-transform:uppercase;background-color:#fc4b3b;color:#fff;border-radius:16px;user-select:none;width:70px;height:70px;justify-content:center}.list{background-color:#f8f8ff;border:1px solid #dcdcdc;border-radius:10px;width:500px}.list__item{color:#3f3f3f}.list__item--description{display:none}.list__item:hover{cursor:pointer;color:#000;text-decoration:underline}
+/*# sourceMappingURL=main.1eaa6523.css.map */
