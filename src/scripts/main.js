@@ -34,7 +34,7 @@ const getPhones = () => {
     });
 };
 
-const getPhonesDetails = (phone) => {
+const getPhonesDetails = (phones) => {
   listOfPhones.addEventListener('click', (e) => {
     const findDiv = body.querySelector('.details');
     const findImg = body.querySelector('.image');
@@ -51,7 +51,7 @@ const getPhonesDetails = (phone) => {
       createDetails.classList.add('details');
       image.classList.add('image');
 
-      const details = phone
+      const details = phones
         .filter(item => e.target.innerText === item.name);
 
       const phoneImgUrl
